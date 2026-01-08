@@ -1,92 +1,101 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
+  name: "Jimmy Cooks",
   title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  description: "Portfolio website of Jimmy Cooks",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "mailto:jimcooks211@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Jimmy",
+    linkedin: "https://www.linkedin.com/in/jimmy-cooks-220a17365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    twitter: "https://x.com/jimcooks211?s=21",
+    github: "https://github.com/jimcooks21",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+aboutMe: `
+I’m a software engineer and a graduate of APTECH Computer Science.
+I build web applications with a focus on clarity, structure, and real-world use.
+I enjoy working with JavaScript, TypeScript, and modern front-end frameworks, and I like understanding how systems work behind the scenes.
+
+I’m motivated by problem solving and steady improvement.
+I care about writing clean code and building products people can actually use.
+I’m passionate about learning by doing and turning ideas into reliable software.
+
+Right now, I’m looking for a full-time role where I can contribute to a team, grow my skills, and take on meaningful challenges.
+`,
+  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker", "SQL", "NoSQL"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "PayPal Digital Payment Platform",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
+        "A web-based payment system that allows users to send, receive, and manage money securely online. The project focuses on transaction flow, user accounts, and payment handling logic while emphasizing trust, speed, and usability in financial applications.",
+      link: "https://github.com/jimcooks21",
+      skills: ["React", "Node.js", "SQL"],
+    },
+    {
+      name: "Real-Time Delivery Tracking System with React & Node.js",
+      description:
+        "A web application that lets users track packages using tracking IDs and view delivery status updates. The project highlights API integration, status management, and clear data presentation to improve visibility and reduce uncertainty during deliveries.",
+      link: "https://github.com/jimcooks21",
       skills: ["React", "Node.js", "AWS"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Web-Based Banking Application",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A banking platform that enables users to manage accounts, view balances, transfer funds, and review transaction history. The project demonstrates core banking workflows, secure data handling, and user-focused design for everyday financial tasks.",
+      link: "https://github.com/jimcooks21",
+      skills: ["React", "Node.js", "AWS", "SQL"],
     },
   ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
-  education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
-  ],
+experience: [
+  {
+    company: "Personal Projects",
+    title: "Software Engineer",
+    dateRange: "2024 - 2026",
+    bullets: [
+      "Built and maintained web applications using React, TypeScript, and modern frontend tooling",
+      "Developed finance and utility-style systems including payment services, package tracking, and online banking",
+      "Applied secure coding practices influenced by cybersecurity and ethical hacking fundamentals",
+    ],
+  },
+  {
+    company: "APTECH Computer Education",
+    title: "Computer Science Graduate",
+    dateRange: "2024 - 2025",
+    bullets: [
+      "Completed training in software development and core computer science principles",
+      "Studied cybersecurity, ethical hacking, and system security fundamentals",
+      "Worked with OpenAI tools and APIs for automation and intelligent features",
+    ],
+  },
+  {
+    company: "Independent Learning",
+    title: "Junior Developer",
+    dateRange: "2023 - 2025",
+    bullets: [
+      "Built responsive user interfaces with a focus on usability and clean layout",
+      "Explored ethical hacking concepts and vulnerability awareness",
+      "Created small projects combining AI tools with web applications",
+    ],
+  },
+],
+education: [
+  {
+    school: "APTECH Computer Education",
+    degree: "Diploma in Computer Science",
+    dateRange: "2023 - 2025",
+    achievements: [
+      "Completed training in software development and core computer science concepts",
+      "Studied cybersecurity, ethical hacking, and system security fundamentals",
+      "Worked on practical projects across frontend and backend development",
+    ],
+  },
+  {
+    school: "Independent Learning & Online Platforms",
+    degree: "Software Development & AI Foundations",
+    dateRange: "2024 - 2026",
+    achievements: [
+      "Built multiple portfolio projects using React, TypeScript, and modern frameworks",
+      "Learned and applied OpenAI tools and APIs in web applications",
+      "Strengthened skills in secure coding, problem solving, and real-world workflows",
+    ],
+  },
+],
 };

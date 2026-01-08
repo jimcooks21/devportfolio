@@ -76,8 +76,8 @@ skills: ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"]
 ```typescript
 projects: [
   {
-    name: "Project Name",
-    description: "Brief description of what the project does and its impact",
+    name: "PayPal Service",
+    description: "The project demonstrates backend logic, security flow, and user experience design in financial applications. Users can transfer funds, process payments, and view transaction history in real time.",
     link: "https://github.com/yourusername/project",
     skills: ["React", "Node.js", "AWS"], // Technologies used
   }
@@ -88,9 +88,9 @@ projects: [
 ```typescript
 experience: [
   {
-    company: "Company Name",
-    title: "Your Job Title",
-    dateRange: "Jan 2022 - Present",
+    company: "Jimmy Code",
+    title: "Software Developer",
+    dateRange: "Jan 2026 - Present",
     bullets: [
       "Led development of microservices architecture serving 1M+ users",
       "Reduced API response times by 40% through optimization",
